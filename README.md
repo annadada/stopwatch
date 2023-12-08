@@ -21,7 +21,7 @@ A simple stopwatch web application with a clean and responsive design.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/stopwatch-app.git
+   git clone https://github.com/annadada/stopwatch
    ```
 
 2. Open index.html in your web browser.
