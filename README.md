@@ -26,4 +26,4 @@ A simple stopwatch web application with a clean and responsive design.
 
 2. Open index.html in your web browser.
 
-3. Use the "Start," "Stop," and "Reset" buttons to control the stopwatch.
+3. Use the "Start", "Stop", and "Reset" buttons to control the stopwatch.
