@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1529528744093-6f8abeee511d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    padding: 2.5rem 6rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.display-time {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-family: 'Azeret Mono', monospace;
+}
+
+h1,
+p {
+    color: #f8f8f8;
+    font-size: 2.5rem;
+}
+
+button {
+    margin: 0 0.2rem;
+    padding: 0.6rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #f8f8f8;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f8f8f8;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 8px;
+    }
+}
